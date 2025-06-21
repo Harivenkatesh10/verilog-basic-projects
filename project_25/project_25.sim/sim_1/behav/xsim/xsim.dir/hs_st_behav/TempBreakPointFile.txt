@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+8,true,"C:/verilog project/project_25/project_25.srcs/sources_1/new/hs_st.v"

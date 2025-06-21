@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/verilog project/project_18/project_18.gen/sources_1/bd/sunii/hdl/sunii_wrapper.v,1748870575,verilog,,,,sunii_wrapper,,,,,,,,
+C:/verilog project/project_18/project_18.ip_user_files/bd/sunii/ip/sunii_halfadder_0_0/sim/sunii_halfadder_0_0.v,1748870575,verilog,,C:/verilog project/project_18/project_18.ip_user_files/bd/sunii/ip/sunii_halfadder_0_1/sim/sunii_halfadder_0_1.v,,sunii_halfadder_0_0,,,,,,,,
+C:/verilog project/project_18/project_18.ip_user_files/bd/sunii/ip/sunii_halfadder_0_1/sim/sunii_halfadder_0_1.v,1748870575,verilog,,C:/verilog project/project_18/project_18.ip_user_files/bd/sunii/ip/sunii_util_vector_logic_0_0/sim/sunii_util_vector_logic_0_0.v,,sunii_halfadder_0_1,,,,,,,,
+C:/verilog project/project_18/project_18.ip_user_files/bd/sunii/ip/sunii_util_vector_logic_0_0/sim/sunii_util_vector_logic_0_0.v,1748870575,verilog,,C:/verilog project/project_18/project_18.ip_user_files/bd/sunii/sim/sunii.v,,sunii_util_vector_logic_0_0,,,,,,,,
+C:/verilog project/project_18/project_18.ip_user_files/bd/sunii/ipshared/4cee/src/ha.v,1748870575,verilog,,C:/verilog project/project_18/project_18.ip_user_files/bd/sunii/ip/sunii_halfadder_0_0/sim/sunii_halfadder_0_0.v,,ha,,,,,,,,
+C:/verilog project/project_18/project_18.ip_user_files/bd/sunii/sim/sunii.v,1748870575,verilog,,C:/verilog project/project_18/project_18.gen/sources_1/bd/sunii/hdl/sunii_wrapper.v,,sunii,,,,,,,,
+C:/verilog project/project_18/project_18.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,

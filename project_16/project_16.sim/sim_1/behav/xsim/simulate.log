@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+value a:0110 and b:1010 at the                    0
+value a:1100 and b:0011 at the                10000
+value a:1000 and b:0111 at the                20000
+$finish called at time : 30 ns : File "C:/verilog project/project_16/project_16.srcs/sim_1/new/tbrca.v" Line 21

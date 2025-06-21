@@ -1,0 +1,129 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xB256556DDD376121",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../project_18.gen/sources_1/bd/sunii",
+      "name": "sunii",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "halfadder_0": "",
+      "halfadder_1": "",
+      "util_vector_logic_0": ""
+    },
+    "ports": {
+      "a": {
+        "direction": "I"
+      },
+      "b": {
+        "direction": "I"
+      },
+      "cin": {
+        "direction": "I"
+      },
+      "sum": {
+        "direction": "O"
+      },
+      "cout": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "halfadder_0": {
+        "vlnv": "xilinx.com:user:halfadder:1.0",
+        "ip_revision": "2",
+        "xci_name": "sunii_halfadder_0_0",
+        "xci_path": "ip\\sunii_halfadder_0_0\\sunii_halfadder_0_0.xci",
+        "inst_hier_path": "halfadder_0"
+      },
+      "halfadder_1": {
+        "vlnv": "xilinx.com:user:halfadder:1.0",
+        "ip_revision": "2",
+        "xci_name": "sunii_halfadder_0_1",
+        "xci_path": "ip\\sunii_halfadder_0_1\\sunii_halfadder_0_1.xci",
+        "inst_hier_path": "halfadder_1"
+      },
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "ip_revision": "4",
+        "xci_name": "sunii_util_vector_logic_0_0",
+        "xci_path": "ip\\sunii_util_vector_logic_0_0\\sunii_util_vector_logic_0_0.xci",
+        "inst_hier_path": "util_vector_logic_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "or"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      }
+    },
+    "nets": {
+      "a_0_1": {
+        "ports": [
+          "a",
+          "halfadder_0/a"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b",
+          "halfadder_0/b"
+        ]
+      },
+      "b_0_2": {
+        "ports": [
+          "cin",
+          "halfadder_1/b"
+        ]
+      },
+      "halfadder_0_c": {
+        "ports": [
+          "halfadder_0/c",
+          "util_vector_logic_0/Op2"
+        ]
+      },
+      "halfadder_0_s": {
+        "ports": [
+          "halfadder_0/s",
+          "halfadder_1/a"
+        ]
+      },
+      "halfadder_1_c": {
+        "ports": [
+          "halfadder_1/c",
+          "util_vector_logic_0/Op1"
+        ]
+      },
+      "halfadder_1_s": {
+        "ports": [
+          "halfadder_1/s",
+          "sum"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "cout"
+        ]
+      }
+    }
+  }
+}

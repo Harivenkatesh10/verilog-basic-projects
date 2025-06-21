@@ -1,0 +1,110 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.33035",
+   "Default View_TopLeft":"-757,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_y -pg 1 -lvl 2 -x 1750 -y 520 -defaultsOSRD
+preplace portBus min -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace portBus sel -pg 1 -lvl 0 -x 0 -y 1010 -defaultsOSRD
+preplace inst hier_4 -pg 1 -lvl 1 -x 150 -y 70 -defaultsOSRD
+preplace inst hier_4|hier_3 -pg 1 -lvl 1 -x 280 -y 180 -defaultsOSRD
+preplace inst hier_4|hier_5 -pg 1 -lvl 2 -x 990 -y 522 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_0 -pg 1 -lvl 1 -x 390 -y 190 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_1 -pg 1 -lvl 1 -x 390 -y 990 -defaultsOSRD
+preplace inst hier_4|hier_5|mux21_0 -pg 1 -lvl 2 -x 1510 -y 552 -defaultsOSRD
+preplace inst hier_4|hier_5|hier_4 -pg 1 -lvl 1 -x 1170 -y 562 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_0|xlslice_0 -pg 1 -lvl 1 -x 450 -y 150 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_0|xlslice_1 -pg 1 -lvl 1 -x 450 -y 250 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_0|xlslice_2 -pg 1 -lvl 1 -x 450 -y 350 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_0|xlslice_3 -pg 1 -lvl 1 -x 450 -y 450 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_0|xlslice_4 -pg 1 -lvl 1 -x 450 -y 550 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_0|xlslice_5 -pg 1 -lvl 1 -x 450 -y 650 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_0|xlslice_6 -pg 1 -lvl 1 -x 450 -y 750 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_0|xlslice_7 -pg 1 -lvl 1 -x 450 -y 850 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_1|xlslice_8 -pg 1 -lvl 1 -x 450 -y 1010 -defaultsOSRD
+preplace inst hier_4|hier_3|hier_1|xlslice_9 -pg 1 -lvl 1 -x 450 -y 1110 -defaultsOSRD
+preplace inst hier_4|hier_5|hier_4|shift_0 -pg 1 -lvl 1 -x 1240 -y 552 -defaultsOSRD
+preplace inst hier_4|hier_5|hier_4|shift_1 -pg 1 -lvl 1 -x 1240 -y 732 -defaultsOSRD
+preplace netloc min_1 1 0 1 NJ 150
+preplace netloc mux21_0_y 1 1 1 1730 520n
+preplace netloc sel_1 1 0 1 NJ 1010
+preplace netloc hier_4|xlslice_3_Dout 1 1 1 830 450n
+preplace netloc hier_4|xlslice_2_Dout 1 1 1 840 350n
+preplace netloc hier_4|xlslice_1_Dout 1 1 1 850 250n
+preplace netloc hier_4|xlslice_0_Dout 1 1 1 860 150n
+preplace netloc hier_4|xlslice_8_Dout 1 1 1 840 592n
+preplace netloc hier_4|xlslice_7_Dout 1 1 1 860 692n
+preplace netloc hier_4|xlslice_6_Dout 1 1 1 800 712n
+preplace netloc hier_4|xlslice_5_Dout 1 1 1 790 650n
+preplace netloc hier_4|xlslice_4_Dout 1 1 1 810 550n
+preplace netloc hier_4|xlslice_9_Dout 1 1 1 820 422n
+preplace netloc hier_4|mux21_0_y 1 2 1 N 552
+preplace netloc hier_4|min_1 1 0 1 N 150
+preplace netloc hier_4|sel_1 1 0 1 N 1010
+preplace netloc hier_4|hier_3|min_1 1 0 1 N 150
+preplace netloc hier_4|hier_3|xlslice_0_Dout 1 1 1 N 150
+preplace netloc hier_4|hier_3|xlslice_1_Dout 1 1 1 N 250
+preplace netloc hier_4|hier_3|xlslice_2_Dout 1 1 1 N 350
+preplace netloc hier_4|hier_3|xlslice_3_Dout 1 1 1 N 450
+preplace netloc hier_4|hier_3|xlslice_4_Dout 1 1 1 N 550
+preplace netloc hier_4|hier_3|xlslice_5_Dout 1 1 1 N 650
+preplace netloc hier_4|hier_3|xlslice_6_Dout 1 1 1 N 750
+preplace netloc hier_4|hier_3|xlslice_7_Dout 1 1 1 N 850
+preplace netloc hier_4|hier_3|sel_1 1 0 1 N 1010
+preplace netloc hier_4|hier_3|xlslice_8_Dout 1 1 1 N 1010
+preplace netloc hier_4|hier_3|xlslice_9_Dout 1 1 1 N 1110
+preplace netloc hier_4|hier_5|shift_1_y 1 1 1 1420 532n
+preplace netloc hier_4|hier_5|shift_0_y 1 1 1 N 552
+preplace netloc hier_4|hier_5|xlslice_9_Dout 1 0 2 NJ 422 1410
+preplace netloc hier_4|hier_5|mux21_0_y 1 2 1 N 552
+preplace netloc hier_4|hier_5|xlslice_3_Dout 1 0 1 N 512
+preplace netloc hier_4|hier_5|xlslice_2_Dout 1 0 1 N 532
+preplace netloc hier_4|hier_5|xlslice_1_Dout 1 0 1 N 552
+preplace netloc hier_4|hier_5|xlslice_0_Dout 1 0 1 N 572
+preplace netloc hier_4|hier_5|xlslice_8_Dout 1 0 1 N 592
+preplace netloc hier_4|hier_5|xlslice_7_Dout 1 0 1 N 692
+preplace netloc hier_4|hier_5|xlslice_6_Dout 1 0 1 N 712
+preplace netloc hier_4|hier_5|xlslice_5_Dout 1 0 1 N 732
+preplace netloc hier_4|hier_5|xlslice_4_Dout 1 0 1 N 752
+preplace netloc hier_4|hier_3|hier_0|min_1 1 0 1 350 150n
+preplace netloc hier_4|hier_3|hier_0|xlslice_0_Dout 1 1 1 NJ 150
+preplace netloc hier_4|hier_3|hier_0|xlslice_1_Dout 1 1 1 NJ 250
+preplace netloc hier_4|hier_3|hier_0|xlslice_2_Dout 1 1 1 NJ 350
+preplace netloc hier_4|hier_3|hier_0|xlslice_3_Dout 1 1 1 NJ 450
+preplace netloc hier_4|hier_3|hier_0|xlslice_4_Dout 1 1 1 NJ 550
+preplace netloc hier_4|hier_3|hier_0|xlslice_5_Dout 1 1 1 NJ 650
+preplace netloc hier_4|hier_3|hier_0|xlslice_6_Dout 1 1 1 NJ 750
+preplace netloc hier_4|hier_3|hier_0|xlslice_7_Dout 1 1 1 NJ 850
+preplace netloc hier_4|hier_3|hier_1|sel_1 1 0 1 350 1010n
+preplace netloc hier_4|hier_3|hier_1|xlslice_8_Dout 1 1 1 NJ 1010
+preplace netloc hier_4|hier_3|hier_1|xlslice_9_Dout 1 1 1 NJ 1110
+preplace netloc hier_4|hier_5|hier_4|xlslice_3_Dout 1 0 1 N 512
+preplace netloc hier_4|hier_5|hier_4|xlslice_2_Dout 1 0 1 N 532
+preplace netloc hier_4|hier_5|hier_4|xlslice_1_Dout 1 0 1 N 552
+preplace netloc hier_4|hier_5|hier_4|xlslice_0_Dout 1 0 1 N 572
+preplace netloc hier_4|hier_5|hier_4|xlslice_8_Dout 1 0 1 1150 592n
+preplace netloc hier_4|hier_5|hier_4|shift_0_y 1 1 1 N 552
+preplace netloc hier_4|hier_5|hier_4|xlslice_7_Dout 1 0 1 N 692
+preplace netloc hier_4|hier_5|hier_4|xlslice_6_Dout 1 0 1 N 712
+preplace netloc hier_4|hier_5|hier_4|xlslice_5_Dout 1 0 1 N 732
+preplace netloc hier_4|hier_5|hier_4|xlslice_4_Dout 1 0 1 N 752
+preplace netloc hier_4|hier_5|hier_4|shift_1_y 1 1 1 N 732
+levelinfo -pg 1 0 150 1750
+levelinfo -hier hier_4 * 280 990 *
+levelinfo -hier hier_4|hier_3 * 390 *
+levelinfo -hier hier_4|hier_5 * 1170 1510 *
+levelinfo -hier hier_4|hier_3|hier_0 * 450 *
+levelinfo -hier hier_4|hier_3|hier_1 * 450 *
+levelinfo -hier hier_4|hier_5|hier_4 * 1240 *
+pagesize -pg 1 -db -bbox -sgen -100 0 1810 1230
+pagesize -hier hier_4 -db -bbox -sgen 100 30 1690 1210
+pagesize -hier hier_4|hier_3 -db -bbox -sgen 210 60 700 1190
+pagesize -hier hier_4|hier_5 -db -bbox -sgen 940 402 1620 852
+pagesize -hier hier_4|hier_3|hier_0 -db -bbox -sgen 320 90 580 910
+pagesize -hier hier_4|hier_3|hier_1 -db -bbox -sgen 320 950 580 1170
+pagesize -hier hier_4|hier_5|hier_4 -db -bbox -sgen 1120 452 1360 832
+"
+}
+

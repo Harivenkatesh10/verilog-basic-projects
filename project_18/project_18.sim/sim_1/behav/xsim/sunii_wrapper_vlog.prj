@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_18.ip_user_files/bd/sunii/ipshared/4cee/src/ha.v" \
+"../../../../project_18.ip_user_files/bd/sunii/ip/sunii_halfadder_0_0/sim/sunii_halfadder_0_0.v" \
+"../../../../project_18.ip_user_files/bd/sunii/ip/sunii_halfadder_0_1/sim/sunii_halfadder_0_1.v" \
+"../../../../project_18.ip_user_files/bd/sunii/ip/sunii_util_vector_logic_0_0/sim/sunii_util_vector_logic_0_0.v" \
+"../../../../project_18.ip_user_files/bd/sunii/sim/sunii.v" \
+"../../../../project_18.gen/sources_1/bd/sunii/hdl/sunii_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
